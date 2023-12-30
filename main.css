@@ -1,0 +1,45 @@
+/*Reset */
+
+body, html{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/*Main content*/
+
+body {
+  align-items: center;
+  background-color: #ffc107;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 1rem;
+  flex: 0;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+h1 {
+  background-color: #fff0e5;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+img {
+  height: 28rem;
+  width: 35rem;
+}
+
+#slogan, #frase {
+  background-color: #fff0e5;
+  border: 1px solid;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
