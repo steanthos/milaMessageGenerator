@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
 	<title>Mila Message Generator</title>
 	<link rel="stylesheet" href="main.css">
 	<script src="main.js" defer></script>
 </head>
+
 <body>
-	<h1>GENERATORE DI FRASI <br> DI MILA LA CAGNOLINA</h1>
-	<img src="Mila.png" alt="Mila la cagnolina">
-	<p id="slogan">Scopri cosa ci dirà oggi Mila la cagnolina</p>
-<button id="button">Cliccami</button>
-<p id="frase"></p>
+	<div class="wrapper">
+			<h1 class="cont title">GENERATORE DI FRASI <br> DI MILA LA CAGNOLINA</h1>
+		<div class="image">
+			<img src="Mila.png" alt="Mila la cagnolina">
+		</div>
+		<div id="contenuto">
+			<p id="slogan"  class="cont">
+				Scopri cosa ci dirà oggi Mila la cagnolina
+			</p>
+			<button id="button" class="cont" onclick="clicca()">
+				Cliccami
+			</button>
+		</div>
+	</div>
 </body>
+
 </html>

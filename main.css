@@ -11,35 +11,55 @@ body, html{
 body {
   align-items: center;
   background-color: #ffc107;
-  display: flex;
-  flex-direction: column;
+  font-family: 'Kalam';
   justify-content: center;
   min-height: 100vh;
 }
 
-button {
-  border-radius: 1rem;
-  flex: 0;
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-h1 {
-  background-color: #fff0e5;
-  border: 1px solid;
-  border-radius: 1rem;
-  padding: 1.5rem;
-}
-
 img {
-  height: 28rem;
-  width: 35rem;
+  height: 20rem;
+  width: 24rem;
 }
 
-#slogan, #frase {
-  background-color: #fff0e5;
-  border: 1px solid;
+button {
+  background-color: brown;
+  color: white;
+  font-family: 'Kalam';
+  font-size: 1.7rem;
+}
+button:hover {
+  background-color: white;
+  color: brown;
+}
+
+.cont {
+  border-color: brown;
   border-radius: 1rem;
+  border-style: solid;
+  border-width: thick;
+}
+
+.title {
+  background-color: beige;
+  color: brown;
+  flex: 0 0 100%;
+  font-size: 3rem;
+  padding: 0 3rem;
+}
+
+#slogan {
+  background-color: beige;
+  color: brown;
   font-size: 2rem;
-  padding: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
